@@ -1,0 +1,16 @@
+{
+  "name": "xero-mcp-server-railway",
+  "version": "1.0.0",
+  "description": "Xero MCP Server for JHK Bookkeeping",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx @xeroapi/xero-mcp-server@latest",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "@xeroapi/xero-mcp-server": "latest"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
