@@ -1,11 +1,8 @@
 {
-  "name": "xero-mcp-server-railway",
+  "name": "jhk-xero-mcp",
   "version": "1.0.0",
-  "description": "Xero MCP Server for Ai Bookkeeper",
-  "main": "server.js",
   "scripts": {
-    "start": "npx @xeroapi/xero-mcp-server@latest",
-    "build": "echo 'No build step required'"
+    "start": "npx @xeroapi/xero-mcp-server@latest"
   },
   "dependencies": {
     "@xeroapi/xero-mcp-server": "latest"
